@@ -1,0 +1,27 @@
+.button_Play {
+    border: 1px solid #333; /* Рамка */
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+    width="22";
+    height="22";
+  }
+   .button_Play:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: #a00;
+   }
+
+.images {
+  width="22";
+  height="22";
+}
+
+ body {
+    background: #c7b39b url(D:/Python/Физика/Images/background.jpg); /* Цвет фона и путь к файлу */
+    color: #fff;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
